@@ -1,0 +1,102 @@
+.mydiv1 {
+    text-align: center;
+  }
+  .mydiv1 div{
+    color: red;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .mydiv1 span{
+    font-weight: 900;
+  }
+  .navbar {
+    
+    background-color: #12120ecb;
+    overflow: hidden;
+    height: 90px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    
+  }
+  .navbar a {
+    
+    color: #fbf1f1;
+    
+    
+    text-decoration: none;
+    padding: 14px 16px;
+  }
+  .logo img{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 5px;
+  }
+  
+  
+  .orderNow {
+    /*  */
+    font-weight: 600;
+    text-align: center;
+    font-size: 13px;
+
+    
+  }
+  .orderNow span{
+    background-color: yellow;
+  }
+  .upperRectangles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px ;
+
+  }
+  .rectangle1,
+  .rectangle2 {
+    display: inline-block;
+    height: 150px;
+    width: 380px;
+    background-color: rgba(223, 223, 228, 0.805);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(3, 3, 3, 0.981), 
+        -10px -10px 10px rgba(3, 3, 3, 0.981), 
+        -10px 10px 10px rgba(3, 3, 3, 0.981), 
+        10px -10px 10px rgba(3, 3, 3, 0.981);
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+  }
+  .rectangle2{
+    margin-left: 3%;
+  }
+  .rectangle1 span{
+    background-color: yellow;
+  }
+  .rectangle2 span {
+    background-color: yellow;
+  }
+  .rectangle3,
+  .rectangle4,
+  .rectangle5 {
+    display: inline-block;
+    height: 180px;
+    width: 30%;
+    border: 2px solid black;
+    margin-top: 45px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .orders{
+    display: flex;
+  }
+  .rectangle3 span,.rectangle4 span,.rectangle5 span{
+    background-color: yellow;
+  }
